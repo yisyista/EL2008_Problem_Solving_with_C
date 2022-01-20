@@ -26,12 +26,10 @@ void main()
 
         if(instruksi == 1){
             A = 3;
-            printf("Isi Ember 3L = %d\n", A);
-            printf("Isi Ember 5L = %d\n", B);
+
         }else if(instruksi == 2){
             B = 5;
-            printf("Isi Ember 3L = %d\n", A);
-            printf("Isi Ember 5L = %d\n", B);
+
         }else if(instruksi == 3){
             ABaru = A+B-5;
             if (ABaru <= 0){
@@ -69,18 +67,15 @@ void main()
 
             A = ABaru;
             B = BBaru;
-            printf("Isi Ember 3L = %d\n", A);
-            printf("Isi Ember 5L = %d\n", B);
+
         }else if(instruksi == 5){
             A = 0;
-            printf("Isi Ember 3L = %d\n", A);
-            printf("Isi Ember 5L = %d\n", B);
+
         }else if(instruksi == 6){
             B = 0;
-            printf("Isi Ember 3L = %d\n", A);
-            printf("Isi Ember 5L = %d\n", B);
         }
-
+        printf("Isi Ember 3L = %d\n", A);
+        printf("Isi Ember 5L = %d\n", B);
     }
 
 
