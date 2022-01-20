@@ -72,6 +72,8 @@ void main()
 
         }else if(instruksi == 6){
             B = 0;
+        }else{
+            printf("Instruksi tidak valid")
         }
         printf("Isi Ember 3L = %d\n", A);
         printf("Isi Ember 5L = %d\n", B);
