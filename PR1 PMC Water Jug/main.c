@@ -47,8 +47,7 @@ void main()
             }
             A = ABaru;
             B = BBaru;
-            printf("Isi Ember 3L = %d\n", A);
-            printf("Isi Ember 5L = %d\n", B);
+
         }else if(instruksi == 4){
             BBaru = A+B-3;
             if(BBaru <=0){
