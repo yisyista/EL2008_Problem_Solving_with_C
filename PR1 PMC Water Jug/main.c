@@ -9,6 +9,7 @@ void main()
     int BBaru = 0;
     int instruksi;
     int selisih;
+    char huruf;
 
     while(B != 4){
         printf("\nBerikut adalah instruksi yang dapat dilakukan\n");
@@ -24,6 +25,7 @@ void main()
         scanf(" %d",&instruksi);
         printf("\n");
 
+        while (instruksi != huruf){
         if(instruksi == 1){
             A = 3;
 
@@ -72,14 +74,17 @@ void main()
 
         }else if(instruksi == 6){
             B = 0;
+        }else if(instruksi == huruf){
+            printf("Instruksi tidak valid\n\n");
+            break;
         }else{
-            printf("Instruksi tidak valid")
+            printf("Instruksi tidak valid\n\n");
         }
         printf("Isi Ember 3L = %d\n", A);
         printf("Isi Ember 5L = %d\n", B);
     }
 
-
+    }
 
 
 }
